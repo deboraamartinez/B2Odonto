@@ -44,7 +44,7 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
-  #differentials header, #differentials .differentials
+  #differentials header, #differentials .differentials,
   #contact .text, #contact .links,
   footer .brand, footer .social
   `,

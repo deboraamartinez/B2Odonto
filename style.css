@@ -294,14 +294,10 @@ nav.show div.icon-cancel-circle {
   font-size: 1.5rem;
 }
 
-/* #home .text h1 {
-  margin-bottom: 1rem;
-} */
 
 #home .text p {
   margin-bottom: 2rem;
-  /*  margin-right: 2rem;
-  text-align: justify; */
+
 }
 
 /*====  ABOUT ============================ */
@@ -406,6 +402,24 @@ nav.show div.icon-cancel-circle {
   color: var(--base-color);
 }
 
+/*====  CLINICS ============================ */
+
+#clinics .panel {
+  padding: 2rem 1.5rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-bottom: 0.25rem solid var(--base-color);
+  border-radius: 0.25rem 0.25rem 0 0;
+  text-align: justify;
+}
+
+#clinics .title {
+  color: var(--base-color);
+}
+
+#clinics .paneltitle {
+  color: var(--base-color);
+  font: 700 2.5rem;
+}
 
 /*====  CONTACT ============================ */
 #contact .grid {
@@ -500,6 +514,7 @@ footer .social a:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 /*========= MEDIA QUERIES =========*/
 /* extra large devices: 1200 > */
